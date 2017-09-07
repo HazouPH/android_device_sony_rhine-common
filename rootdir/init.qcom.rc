@@ -64,11 +64,6 @@ on post-fs-data
     # Create /data/time folder for time-services
     mkdir /data/time/ 0700 system system
 
-on property:init.svc.bootanim=running
-    # Clear Sony boot splash
-    write /sys/class/graphics/fb0/blank 1
-    write /sys/class/graphics/fb0/blank 0
-
 on property:bluetooth.hciattach=true
     setprop bluetooth.status on
 
