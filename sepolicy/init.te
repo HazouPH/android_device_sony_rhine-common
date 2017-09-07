@@ -1,0 +1,1 @@
+allow init blkid_exec:file getattr;
