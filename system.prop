@@ -55,3 +55,9 @@ ro.semc.version.sw_revision=14.6.A.1.236
 ro.semc.version.sw_variant=GENERIC
 ro.semc.version.sw_type=user
 
+# Ril
+ril.ecclist 911,112,000,08,110,999,118,119
+ro.sony.th_list_gw_rscp -64,-68,-72,-76,-80,-84,-88,-92,-96,-100,-104,-107,-109,-111,-116,-120
+ro.sony.th_list_l_rsrp -68,-74,-80,-86,-92,-98,-104,-110,-116,-117,-119,-121,-123,-125,-128,-134
+ro.sony.th_list_l_snr -120,-80,-40,-20,0,10,20,60,90,120,150,180,210,240,270,300
+
