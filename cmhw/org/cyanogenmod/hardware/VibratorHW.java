@@ -23,7 +23,7 @@ public class VibratorHW {
     private static String LEVEL_PATH = "/sys/devices/virtual/timed_output/vibrator/vtg_level";
 
     public static boolean isSupported() {
-        return true;
+        return FileUtils.isFileWritable(LEVEL_PATH);
     }
 
     public static int getMaxIntensity()  {
